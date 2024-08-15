@@ -1,0 +1,117 @@
+---
+// Import the necessary components
+// Importowanie niezbędnych komponentów
+import MainLayout from "@/layouts/MainLayout.astro";
+import HeroSection from "@components/sections/landing/HeroSection.astro";
+import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
+import ClientsSection from "@components/sections/landing/ClientsSection.astro";
+import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
+import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
+import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
+import PricingSection from "@components/sections/pricing/PricingSection.astro";
+import FAQ from "@components/sections/misc/FAQ.astro";
+import heroImage from "@images/hero_lms.avif";
+import faqs from "@data/faqs.json";
+import features from "@data/features.json";
+import pricing from "@data/pricing.json";
+import featureImage from "@images/features-image.avif";
+import construction from "@images/roz2.avif";
+import tools from "@images/roz1.avif";
+import dashboard from "@images/dashboard-image.avif";
+
+const avatarSrcs: Array<string> = [
+  
+];
+---
+
+<MainLayout>
+
+
+  <HeroSection
+    title=`Rozwijaj kompetencje z <span
+        class="text-yellow-500 dark:text-yellow-400">LMS Project</span>`
+    subTitle="Zaawansowany system zarządzania nauką dla każdego typu instytucji edukacyjnej. Twórz kursy zdalne i wprowadzaj naukę na całkiem nowy poziom."
+    primaryBtn=""
+    primaryBtnURL="/kursy"
+    secondaryBtn=""
+    secondaryBtnURL="/kontakt"
+    withReview={true}
+    avatars={avatarSrcs}
+    rating=`<span class="font-bold">4.7</span> / 5`
+    starCount={5}
+    reviews=`Na podstawie ponad <span class="font-bold">1k</span> recenzji`
+    src={heroImage}
+    alt="Zdjęcie studentów korzystających z aplikacji LMSProjekt"
+  />
+
+
+  <FeaturesNavs
+    title=`Dostosuj ofertę <span class="text-yellow-500 dark:text-yellow-400">LMSProjekt</span> do swoich potrzeb edukacyjnych.`
+    tabs={[
+      {
+        heading: "Narzędzia e-learningowe",
+        content:
+          "Rozwijaj swoje projekty edukacyjne z zaawansowanymi narzędziami e-learningowymi LMSProjekt. Zapewnij efektywną naukę dzięki naszym rozwiązaniom.",
+        svg: "education",
+        src: tools,
+        alt: "Zdjęcie komputerów na biurkach w bibliotece",
+        first: true,
+      },
+      {
+        heading: "Intuicyjne Pulpity",
+        content:
+          "Łatwo nawiguj dzięki intuicyjnym pulpitom LMSProjekt. Zarządzaj swoimi kursami i projektami edukacyjnymi z łatwością dzięki naszym użytkowniczym interfejsom.",
+        svg: "dashboard",
+        src: dashboard,
+        alt: "Graficzne przedstawienie intuicyjnego pulpitu systemu LMSProjekt",
+        second: true,
+      },
+      {
+        heading: "Angażowanie Użytkowników",
+        content:
+          "Maksymalizuj zaangażowanie uczniów dzięki funkcjom LMSProjekt zaprojektowanym do poprawy interakcji i współpracy.",
+        svg: "engagement",
+        src: construction,
+        alt: "Zdjęcie uczestników kursu współpracujących nad projektem",
+      },
+    ]}
+  />
+
+  <TestimonialsSection
+    title="Przyspiesz Swoje Projekty Edukacyjne"
+    subTitle="Z LMSProjekt szybko rozpoczniesz naukę dzięki natychmiastowej konfiguracji konta. Doświadcz szybkości edukacji na nowym poziomie."
+    testimonials={[
+      {
+        content:
+          "Dzięki LMSProjekt znacząco zwiększyliśmy efektywność naszych kursów. Szybka konfiguracja i reakcja na potrzeby są niesamowite. Prawdziwy przełom w wsparciu edukacyjnym!",
+        author: "Kamil Nowacki",
+        role: "CEO w IT Academy",
+        avatarSrc:
+         "https://images.unsplash.com/photo-1549473448-5d7196c91f48?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+    ]}
+    statistics={[
+      {
+        count: "3k+",
+        description: "użytkowników od indywidualnych użytkowników do dużych instytucji",
+      },
+      {
+        count: "40%",
+        description: "wzrost efektywności nauki dzięki narzędziom i usługom LMSProjekt",
+      },
+      {
+        count: "18.5%",
+        description: "redukcja kosztów utrzymania zgłaszana przez długoterminowych klientów",
+      },
+      {
+        count: "2.5x",
+        description: "szybsze przyswajanie wiedzy dzięki innowacyjnym rozwiązaniom edukacyjnym",
+      },
+    ]}
+  />
+
+  <PricingSection pricing={pricing} />
+
+  <FAQ title="Najczęściej<br />zadawane pytania" faqs={faqs} />
+
+</MainLayout>

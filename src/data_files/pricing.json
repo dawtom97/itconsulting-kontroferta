@@ -1,38 +1,64 @@
 {
-  "title": "Simple, Transparent Pricing",
-  "subTitle": "Boost efficiency with ScrewFast's clear, value-driven plans.",
-  "badge": "Best value",
-  "thirdOption": "Enterprise Solutions?",
-  "btnText": "Get a Custom Quote",
+  "title": "Proste, Przejrzyste Ceny",
+  "subTitle": "Zwiększ efektywność dzięki jasnym i wartościowym planom LMSProjekt.",
+  "badge": "Najlepsza oferta",
+  "thirdOption": "Rozwiązania Korporacyjne?",
+  "btnText": "Uzyskaj Indywidualną Wycenę",
 
   "starterKit": {
-    "name": "Starter Kit",
-    "description": "Best option for DIY projects",
-    "price": "49",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "name": "Pakiet Start",
+    "description": "Najlepsza opcja dla początkujących",
+    "price": "599",
+    "cents": ".99",
+    "billingFrequency": "PLN / miesięcznie",
     "features": [
-      "Key hardware tools",
-      "Access to guides & tutorials",
-      "Standard support"
+      "Podstawowe kursy edukacyjne",
+      "Dostęp do przewodników i samouczków",
+      "Standardowe wsparcie",
+      "Wsparcie dostępności cyfrowej",
+      "Możliwość tworzenia własnych kursów",
+      "Własna przestrzeń chmurowa",
+      "40GB miejsca w przestrzeni chmurowej"
+
     ],
-    "purchaseBtnTitle": "Get the Starter Kit",
+    "purchaseBtnTitle": "Wybierz pakiet Start",
     "purchaseLink": "#"
   },
 
   "professionalToolbox": {
-    "name": "Professional Toolbox",
-    "description": "Best for large scale uses",
-    "price": "89",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "name": "Pakiet Premium",
+    "description": "Najlepsza dla użytkowników zaawansowanych",
+    "price": "899",
+    "cents": ".99",
+    "billingFrequency": "PLN / miesięcznie",
     "features": [
-      "Premium tool selection",
-      "Priority support",
-      "Exclusive content & deals",
-      "Bulk order discounts"
+      "Zaawansowane kursy i materiały",
+      "Wsparcie całodobowe",
+      "Ekskluzywne materiały i oferty",
+      "Zniżki na zakupy hurtowe",
+      "Dostęp do webinariów i warsztatów",
+      "Własna przestrzeń chmurowa",
+      "80GB miejsca w przestrzeni chmurowej",
+      "Moduły VR do nauki zawodów i zdobywania uprawnień"
     ],
-    "purchaseBtnTitle": "Get the Professional Toolbox",
+    "purchaseBtnTitle": "Wybierz pakiet Premium",
+    "purchaseLink": "#"
+  },
+
+  "enterpriseSolutions": {
+    "name": "Rozwiązania Korporacyjne",
+    "description": "Idealne dla dużych organizacji i uniwersytetów",
+    "price": "Custom",
+    "cents": "",
+    "billingFrequency": "Cena ustalana indywidualnie",
+    "features": [
+      "Kompleksowe wsparcie projektów edukacyjnych",
+      "Szkolenia i certyfikacje dla kadry",
+      "Integracja z istniejącymi systemami",
+      "Personalizowane ścieżki nauki",
+      "Analityka zaawansowana i raportowanie"
+    ],
+    "purchaseBtnTitle": "Skonsultuj Rozwiązania Korporacyjne",
     "purchaseLink": "#"
   }
 }

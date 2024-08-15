@@ -1,0 +1,29 @@
+{
+    "subTitle": "Zadaj pytania dotyczące naszej firmy i usług IT, a otrzymasz rzetelne odpowiedzi.",
+    "faqs": [
+    {
+    "question": "Jakie typy usług oferuje nasze rozwiązanie dla początkujących firm?",
+    "answer": "Nasze usługi dla początkujących firm obejmują konsultacje IT, podstawowe szkolenia z zarządzania danymi i infrastrukturą IT, oraz wstępne wsparcie w implementacji systemów bezpieczeństwa. Skoncentrowane na umożliwieniu nowym przedsiębiorstwom skutecznego wykorzystania technologii, te usługi pomagają w szybkim rozpoczęciu działalności."
+    },
+    {
+    "question": "Czy mogę ulepszyć początkowe usługi do kompleksowego wsparcia IT?",
+    "answer": "Tak, oferujemy możliwość rozbudowania początkowych usług do pełnego wsparcia IT, które obejmuje zaawansowane konsultacje, kompleksową obsługę infrastruktury, oraz dedykowane wsparcie techniczne. Nasz zespół jest gotowy do pomocy w rozwijaniu i skalowaniu twoich operacji IT."
+    },
+    {
+    "question": "Jakie rabaty są dostępne przy zakupie usług w większym zakresie?",
+    "answer": "Oferujemy ekskluzywne rabaty dla klientów decydujących się na kompleksowe i długoterminowe współprace. Wysokość zniżek zależy od zakresu i czasu trwania umowy. Zapraszamy do kontaktu, aby omówić szczegóły i dostosować ofertę do potrzeb twojej firmy."
+    },
+    {
+    "question": "Jakiego rodzaju wsparcie klienta mogę oczekiwać?",
+    "answer": "Wszyscy nasi klienci otrzymują dostęp do wsparcia technicznego przez email, telefon, a w przypadku większych umów - także dedykowanego opiekuna klienta. Nasze wsparcie jest dostosowane do potrzeb biznesowych i technicznych każdego klienta, gwarantując skuteczną pomoc."
+    },
+    {
+    "question": "Jak aktualne są dostępne zasoby i materiały szkoleniowe?",
+    "answer": "Regularnie aktualizujemy nasze materiały szkoleniowe, aby odzwierciedlały najnowsze trendy i technologie w branży IT. Dostarczamy aktualne zasoby, które wspierają rozwój umiejętności i wiedzy niezbędnej w nowoczesnym środowisku biznesowym."
+    },
+    {
+    "question": "Czy IT Consulting oferuje usługi dla dużych projektów korporacyjnych?",
+    "answer": "Tak, nasze usługi korporacyjne są zaprojektowane dla większych przedsiębiorstw wymagających kompleksowych rozwiązań IT. Oferujemy konsultacje, projektowanie systemów, zarządzanie infrastrukturą i dedykowane wsparcie, aby sprostać specyficznym wymaganiom dużych projektów."
+    }
+    ]
+}

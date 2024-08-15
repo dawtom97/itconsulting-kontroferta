@@ -1,5 +1,5 @@
 ---
-// Import the necessary dependencies.
+// Importowanie niezbędnych zależności.
 import AuthBtn from "@components/ui/buttons/AuthBtn.astro";
 import ContactIconBlock from "@components/ui/blocks/ContactIconBlock.astro";
 import TextInput from "@components/ui/forms/input/TextInput.astro";
@@ -8,15 +8,14 @@ import PhoneInput from "@components/ui/forms/input/PhoneInput.astro";
 import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 import Icon from "@components/ui/icons/Icon.astro";
 
-// Define the variables that will be used in this component
-const title: string = "Contact us";
+// Definiowanie zmiennych, które będą używane w tym komponencie
+const title: string = "Skontaktuj się z nami";
 const subTitle: string =
-  "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.";
-const formTitle: string = "Fill in the form below";
-const formSubTitle: string = "We'll get back to you in 1-2 business days.";
+  "Masz pytania lub chcesz omówić projekt? Skontaktuj się z nami, a wspólnie stworzymy idealne rozwiązanie za pomocą naszych narzędzi i usług.";
+const formTitle: string = "Wypełnij poniższy formularz";
+const formSubTitle: string = "Odpowiemy w ciągu 1-2 dni roboczych.";
 ---
-
-<!-- Contact Us -->
+<!-- Kontakt -->
 <section class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
   <div class="mx-auto max-w-2xl lg:max-w-5xl">
     <div class="text-center">
@@ -37,33 +36,33 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
         >
           {formTitle}
         </h2>
-        <!-- Form for user input with various input fields.-->
-        <!-- Each field utilizes a different input component for the specific type of input (text, email, phone, and textarea)-->
+        <!-- Formularz z różnymi polami do wprowadzania danych.-->
+        <!-- Każde pole korzysta z różnych komponentów input do określonego typu danych (tekst, email, telefon, textarea).-->
         <form>
           <div class="grid gap-4">
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <TextInput
                 id="hs-firstname-contacts"
-                label="First Name"
+                label="Imię"
                 name="hs-firstname-contacts"
               />
               <TextInput
                 id="hs-lastname-contacts"
-                label="Last Name"
-                name="hs-firstname-contacts"
+                label="Nazwisko"
+                name="hs-lastname-contacts"
               />
             </div>
             <EmailContactInput id="hs-email-contacts" />
             <PhoneInput id="hs-phone-number" />
             <TextAreaInput
               id="hs-about-contacts"
-              label="Details"
+              label="Szczegóły"
               name="hs-about-contacts"
             />
           </div>
 
           <div class="mt-4 grid">
-            <AuthBtn title="Send Message" />
+            <AuthBtn title="Wyślij wiadomość" />
           </div>
 
           <div class="mt-3 text-center">
@@ -74,13 +73,13 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
         </form>
       </div>
 
-      <!--ContactIconBlocks are used to display different methods of contacting, including visiting office, email, browsing knowledgebase, and FAQ.-->
+      <!--Blok ContactIconBlock służy do prezentacji różnych metod kontaktu, w tym wizyty w biurze, email, przeglądania bazy wiedzy i FAQ.-->
       <div class="divide-y divide-neutral-300 dark:divide-neutral-700">
         <ContactIconBlock
-          heading="Knowledgebase"
-          content="Browse through all of our knowledgebase articles."
+          heading="Baza wiedzy"
+          content="Przeglądaj wszystkie artykuły z naszej bazy wiedzy."
           isLinkVisible={true}
-          linkTitle="Visit guides & tutorials"
+          linkTitle="Odwiedź przewodniki i samouczki"
           linkURL="#"
           isArrowVisible={true}
           ><Icon name="question" />
@@ -88,27 +87,27 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
 
         <ContactIconBlock
           heading="FAQ"
-          content="Explore our FAQ for quick, clear answers to common queries."
+          content="Zapoznaj się z naszym FAQ, aby uzyskać szybkie i jasne odpowiedzi na często zadawane pytania."
           isLinkVisible={true}
-          linkTitle="Visit FAQ"
+          linkTitle="Odwiedź FAQ"
           linkURL="#"
           isArrowVisible={true}
           ><Icon name="chatBubble" />
         </ContactIconBlock>
 
-        <ContactIconBlock
-          heading="Visit our office"
-          content="UK ScrewFast"
+        <!-- <ContactIconBlock
+          heading="Odwiedź nasze biuro"
+          content="Polska LMSProjekt"
           isAddressVisible={true}
-          addressContent="72 Union Terrace, E10 4PE London"
+          addressContent="ul. Morska 102, 80-225 Gdańsk"
           ><Icon name="mapPin" />
-        </ContactIconBlock>
+        </ContactIconBlock> -->
 
         <ContactIconBlock
-          heading="Contact us by email"
-          content="Prefer the written word? Drop us an email at"
+          heading="Skontaktuj się z nami przez email"
+          content="Preferujesz pisemną formę? Napisz do nas email na adres"
           isLinkVisible={true}
-          linkTitle="support@screwfast.uk"
+          linkTitle="kontakt@itconsulting.pl"
           linkURL="#"
           ><Icon name="envelopeOpen" />
         </ContactIconBlock>

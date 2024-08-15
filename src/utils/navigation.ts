@@ -1,28 +1,25 @@
 // An array of links for navigation bar
 const navBarLinks = [
-  { name: "Home", url: "/" },
-  { name: "Products", url: "/products" },
-  { name: "Services", url: "/services" },
-  { name: "Blog", url: "/blog" },
-  { name: "Contact", url: "/contact" },
+  { name: "Strona główna", url: "/" },
+  { name: "LMS Project", url: "/lms" },
+  { name: "Produkty", url: "/inne" },
+  { name: "Kontakt", url: "/contact" },
 ];
 // An array of links for footer
 const footerLinks = [
   {
-    section: "Ecosystem",
+    section: "Przydatne linki",
     links: [
-      { name: "Documentation", url: "/welcome-to-docs/" },
-      { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
+      { name: "Dokumentacja", url: "/" },
+      { name: "Narzędzia i dodatki", url: "/" },
+      { name: "Inne usługi", url: "/" },
     ],
   },
   {
-    section: "Company",
+    section: "Produkt",
     links: [
-      { name: "About us", url: "#" },
-      { name: "Blog", url: "/blog" },
-      { name: "Careers", url: "#" },
-      { name: "Customers", url: "#" },
+      { name: "O nas", url: "#" },
+      { name: "Kariera", url: "#" },
     ],
   },
 ];

@@ -1,29 +1,29 @@
 {
-  "subTitle": "Ask us anything about our brand and products, and get factual responses.",
+  "subTitle": "Zadaj pytania dotyczące naszej marki i produktów, a otrzymasz rzetelne odpowiedzi.",
   "faqs": [
-    {
-      "question": "What types of tools are included in the Starter Kit?",
-      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
-    },
-    {
-      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
-    },
-    {
-      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
-      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
-    },
-    {
-      "question": "What kind of customer support can I expect?",
-      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
-    },
-    {
-      "question": "How current are the online resources and tutorials?",
-      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
-    },
-    {
-      "question": "Does ScrewFast offer services for large-scale construction projects?",
-      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
-    }
+  {
+  "question": "Jakie typy kursów zawiera Pakiet Startowy?",
+  "answer": "Pakiet Startowy zawiera podstawowe kursy z różnych dziedzin edukacyjnych, w tym wprowadzenie do programowania, podstawy marketingu, oraz kursy językowe. To starannie dobrane kursy, które pomagają początkującym i doświadczonym użytkownikom w realizacji projektów edukacyjnych."
+  },
+  {
+  "question": "Czy mogę ulepszyć Pakiet Startowy do Profesjonalnej Platformy Edukacyjnej?",
+  "answer": "Oczywiście! Możesz w każdej chwili ulepszyć swój pakiet do Profesjonalnej Platformy Edukacyjnej, aby uzyskać dostęp do szerszej gamy zaawansowanych kursów, cieszyć się priorytetowym wsparciem klienta oraz otrzymać ekskluzywne materiały. Skontaktuj się z naszym zespołem wsparcia, aby przeprowadzić płynne przejście."
+  },
+  {
+  "question": "Jakie zniżki są dostępne przy zakupie hurtowym przez plan Profesjonalnej Platformy Edukacyjnej?",
+  "answer": "Użytkownicy Profesjonalnej Platformy Edukacyjnej mają prawo do ekskluzywnych zniżek przy zamówieniach hurtowych, których wysokość może się różnić w zależności od objętości zamówienia. Skontaktuj się z nami, aby omówić swoje potrzeby, a my przedstawimy dostosowaną strukturę zniżek."
+  },
+  {
+  "question": "Jakiego rodzaju wsparcie klienta mogę oczekiwać?",
+  "answer": "Wszyscy nasi klienci otrzymują dedykowane wsparcie poprzez email. Z Pakietem Startowym otrzymasz nasze standardowe wsparcie, podczas gdy plan Profesjonalnej Platformy Edukacyjnej zapewnia ci priorytetowe wsparcie, co oznacza szybsze czasy reakcji i specjalistyczną pomoc."
+  },
+  {
+  "question": "Jak aktualne są dostępne zasoby online i samouczki?",
+  "answer": "Regularnie aktualizujemy nasze zasoby online i samouczki, aby odzwierciedlały najnowsze trendy w edukacji online oraz wprowadzały nowe kursy i techniki. Nasz materiał ma na celu być kompleksowy i przyjazny dla użytkowników na wszystkich poziomach zaawansowania."
+  },
+  {
+  "question": "Czy LMSProjekt oferuje usługi dla dużych projektów edukacyjnych?",
+  "answer": "Tak, nasze Rozwiązania Korporacyjne są przeznaczone dla większych firm potrzebujących kompleksowych usług. Zapewniamy konsultacje, planowanie i dostarczanie materiałów edukacyjnych, a także rozwiązania kadrowe na potrzeby znaczących potrzeb edukacyjnych. Skontaktuj się z nami, aby uzyskać spersonalizowaną wycenę."
+  }
   ]
-}
+  }
