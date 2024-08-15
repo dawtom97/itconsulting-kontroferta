@@ -4,7 +4,7 @@
   aria-label="Dark Theme Toggle"
   id="dark-theme-toggle"
   class="group flex h-8 w-8 items-center justify-center rounded-full font-medium text-neutral-600 outline-none ring-zinc-500 transition duration-300 hover:bg-neutral-200 hover:text-orange-400"
-  data-hs-theme-click-value="dark"
+  data-hs-theme-click-value="light"
 >
   <svg
     class="h-4 w-4 flex-shrink-0"
@@ -55,7 +55,7 @@
 
 <script>
   // Define the Theme type
-  type Theme = "light" | "dark";
+  type Theme = "light" | "light";
 
   // Function to set the theme
   function setTheme(theme: Theme): void {
@@ -69,7 +69,7 @@
     const darkButton = document.getElementById("dark-theme-toggle");
     const lightButton = document.getElementById("light-theme-toggle");
 
-    if (theme === "dark") {
+    if (theme === "light") {
       darkButton?.classList.add("hidden");
       lightButton?.classList.remove("hidden");
     } else {
@@ -82,7 +82,7 @@
   document
     .getElementById("dark-theme-toggle")
     ?.addEventListener("click", () => {
-      setTheme("dark");
+      setTheme("light");
     });
 
   document
@@ -97,7 +97,7 @@
     const theme: Theme =
       storedTheme ||
       (window.matchMedia("(prefers-color-scheme: dark)").matches
-        ? "dark"
+        ? "light"
         : "light");
     setTheme(theme);
   });

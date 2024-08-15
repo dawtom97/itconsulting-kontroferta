@@ -114,7 +114,7 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
       const defaultTheme = "default";
       let theme = localStorage.getItem("hs_theme") || defaultTheme;
 
-      if (document.querySelector("html").classList.contains("dark")) return;
+      if (document.querySelector("html").classList.contains("light")) return;
       this.setAppearance(theme);
     },
     _resetStylesOnLoad() {
@@ -133,11 +133,11 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
 
       if (theme === "auto") {
         theme = window.matchMedia("(prefers-color-scheme: dark)").matches
-          ? "dark"
+          ? "light"
           : "default";
       }
 
-      document.querySelector("html").classList.remove("dark");
+      document.querySelector("html").classList.remove("light");
       document.querySelector("html").classList.remove("default");
       document.querySelector("html").classList.remove("auto");
 
@@ -159,7 +159,7 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
       let theme = this.getOriginalAppearance();
       if (theme === "auto") {
         theme = window.matchMedia("(prefers-color-scheme: dark)").matches
-          ? "dark"
+          ? "light"
           : "default";
       }
       return theme;
@@ -199,15 +199,15 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
 
     $switchableThemes.forEach(($item) => {
       $item.addEventListener("change", (e) => {
-        HSThemeAppearance.setAppearance(e.target.checked ? "dark" : "default");
+        HSThemeAppearance.setAppearance(e.target.checked ? "light" : "default");
       });
 
-      $item.checked = HSThemeAppearance.getAppearance() === "dark";
+      $item.checked = HSThemeAppearance.getAppearance() === "light";
     });
 
     window.addEventListener("on-hs-appearance-change", (e) => {
       $switchableThemes.forEach(($item) => {
-        $item.checked = e.detail === "dark";
+        $item.checked = e.detail === "light";
       });
     });
   });
