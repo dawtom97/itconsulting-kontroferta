@@ -18,7 +18,7 @@
       "Wsparcie dostępności cyfrowej",
       "Możliwość tworzenia własnych kursów",
       "Własna przestrzeń chmurowa",
-      "40GB miejsca w przestrzeni chmurowej"
+      "10GB miejsca w przestrzeni chmurowej"
 
     ],
     "purchaseBtnTitle": "Wybierz pakiet Start",
@@ -38,8 +38,10 @@
       "Zniżki na zakupy hurtowe",
       "Dostęp do webinariów i warsztatów",
       "Własna przestrzeń chmurowa",
-      "80GB miejsca w przestrzeni chmurowej",
-      "Moduły VR do nauki zawodów i zdobywania uprawnień"
+      "20GB miejsca w przestrzeni chmurowej",
+      "Dzienniki, certyfikaty i ankiety",
+      "Tworzenie quizów"
+
     ],
     "purchaseBtnTitle": "Wybierz pakiet Premium",
     "purchaseLink": "#"
