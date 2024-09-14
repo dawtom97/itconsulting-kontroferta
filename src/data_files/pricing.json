@@ -10,7 +10,7 @@
     "description": "Najlepsza opcja dla początkujących",
     "price": "599",
     "cents": ".99",
-    "billingFrequency": "PLN / miesięcznie",
+    "billingFrequency": "PLN netto / miesięcznie",
     "features": [
       "Podstawowe kursy edukacyjne",
       "Dostęp do przewodników i samouczków",
@@ -30,7 +30,7 @@
     "description": "Najlepsza dla użytkowników zaawansowanych",
     "price": "899",
     "cents": ".99",
-    "billingFrequency": "PLN / miesięcznie",
+    "billingFrequency": "PLN netto / miesięcznie",
     "features": [
       "Zaawansowane kursy i materiały",
       "Wsparcie całodobowe",
